@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Slider section*/
+.slider-section {
+    background-image: url(./imeges/gurbani1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+
+}
+
+.slider-text {
+    max-width: 600px;
+    padding: 150px 200px;
+    color: white;
+}
+
+.slider-text h1 {
+    font-size: 56px;
+}
+
+.slider-text p {
+    padding: 17px 0;
+}
+
+.link-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: red;
+    padding: 14px 23px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* helping part*/
+
+.helping-donate {
+    display: flex;
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.helping-donate-text {
+    width: 50%;
+    padding: 40px 80px;
+}
+
+.helping-donate-text h1 {
+    font-size: 46px;
+}
+
+.helping-donate-text p {
+    font-size: 20px;
+    padding: 34px 0;
+    color: gray;
+    line-height: 1.8;
+}
+
+.helping-donate-img {
+    width: 50%;
+}
+
+.helping-donate-img img {
+    height: 86%;
+    width: 80%;
+    padding: 41px 20px;
+    display: inline-block;
+}
+
+/* Middle Title*/
+.middle-title {
+    padding: 54px 0;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.middle-title h1 {
+    font-size: 50px;
+    padding: 10px 33px;
+}
+
+.middle-title p {
+    color: gray;
+}
+
+/* card section*/
+
+.card-sec {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card-text {
+    width: 88%;
+    display: flex;
+    background: #fff6f6;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.card-img {
+    width: 20%;
+}
+
+.card-img img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-right-text {
+    width: 80%;
+}
+
+.card-right-text p {
+    padding-top: 10px;
+    color: gray;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* img part*/
+.img-part {
+    text-align: center;
+}
+
+
+
+.imeges img {
+    margin: 70px 15px;
+    border-radius: 10px;
+
+}
+
+.small {
+    font-size: 38px !important;
+}
+
+/* About Section*/
+.about-section {
+    max-width: 80%;
+    margin: auto;
+}
+
+ul {
+    padding: 50px 0;
+}
+
+ul li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.about-text {
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.about-text img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+#tera-img {
+    height: 212px;
+}
+
+.about-text p {
+    color: gray;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-text a {
+    display: inline-block;
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -21px;
+}
+
+.about-text h1,
+p,
+a {
+    padding: 15px !important;
+}
+
+/* footer section*/
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer h2 {
+    color: #d95523;
+}
+
+footer p {
+    color: gray;
+}
